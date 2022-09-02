@@ -87,5 +87,6 @@ def get_trades(date: str):
 
 if __name__ == '__main__':
     trades = get_trades(date='01/03/2022')
-    df = pd.DataFrame(trades[0])    print(df)
+    df = pd.DataFrame(trades[0])
+    print(df)
 
